@@ -71,7 +71,7 @@ public class Custom_ButtonsandListview extends AppCompatActivity {
                 new android.app.AlertDialog.Builder(Custom_ButtonsandListview.this)
                         .setIcon(R.drawable.profile)
                         .setTitle("App info")
-                        .setMessage("This app is showing how to create custom buttons with variety of layouts using buttons, ,toast, textview, xml and linearlayout.")
+                        .setMessage("This app is showing how to create custom buttons and listview with variety of layouts using buttons, ,toast, textview, listview xml and linearlayout.")
                         .setPositiveButton("ok", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
