@@ -60,7 +60,7 @@ public class Custom_ButtonsandListview extends AppCompatActivity {
         github.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/ARashad96/Custom_Buttons"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/ARashad96/Custom_ButtonsandListview"));
                 startActivity(intent);
             }
         });
